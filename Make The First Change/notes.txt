@@ -1,0 +1,31 @@
+Make the first change mean suppose i am doing any changes in 
+Our Project for Example: 
+    1. created a file 
+    2. modified the file
+    3. added a file 
+    4. deleted a file 
+
+but how do we come to know that yes some changes have been made .
+
+so there is a command known as git status, see the changes i have made till now 
+---------------------------------------------------------
+D:\Git By Kunal Khuswaha>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Make The First Change/
+----------------------------------------------------------
+
+git status
+-
+so this is the command that basically tell us that these are the changes that have been made . and these are the changes that re not in the history of the project no one known about it.
+
+
+Note: Now git will come to know if we are doing any changes since we have initialized and empty repositry

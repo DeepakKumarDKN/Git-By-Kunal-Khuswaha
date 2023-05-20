@@ -1,0 +1,37 @@
+Staging the first change: 
+-------------------------
+
+so we can see some untracked files but we have to add all of them into the Project folder: 
+
+Lets say for an example we are working on a project and we have made some changes in the project for examplewe have added some code in a particular code file 
+
+we can see those changfes we have made with the help of using the command git status
+
+which will tell us that these are the changes have been made.
+
+but if we have to add those changes in the project folder for that we have a command called
+
+git add .
+
+if we are using  [ . ] then it will select everything, otherwise instead of writting [ . ] we can also mention some specefic file name.
+
+when we will use git add . it will keep all the files in the staging area
+
+after using the command git ad . we can use the command git status  we can seee some green files that means those files are in the stage area remember previously it was red.
+
+--------------------------------------------------------------------------------------------------------
+D:\Git By Kunal Khuswaha>git add .
+
+D:\Git By Kunal Khuswaha>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Make The First Change/notes.txt
+        modified:   README.md
+        new file:   Staging the First Change/notes.txt
+
+-----------------------------------------------------------------------------------------------------------
+
+Note: An image will be added to this folder that will tell us that now the color was green.
