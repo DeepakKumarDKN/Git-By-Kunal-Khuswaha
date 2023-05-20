@@ -1,0 +1,13 @@
+so we have added all the files now we have to commit all the work we have done.
+commit keep the track of all our changes we have made for example it save our history of work we have done 
+
+during commit we have to give some message just for our info its good to give a clear message.
+
+
+
+D:\Git By Kunal Khuswaha>git commit -m "added all the files"
+[main 6fe69cc] added all the files
+ 4 files changed, 73 insertions(+), 3 deletions(-)
+ create mode 100644 Make The First Change/notes.txt
+ create mode 100644 Staging the First Change/Image after using git add.png
+ create mode 100644 Staging the First Change/notes.txt
