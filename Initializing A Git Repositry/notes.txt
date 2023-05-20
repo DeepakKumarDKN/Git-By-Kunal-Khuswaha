@@ -1,0 +1,15 @@
+How To Store All Of Our History
+-------------------------------
+Suppose we are woking on a project and we need to do multiple things such as 
+    1. Creating a file.
+    2. Adding some code.
+    3. Deleting some Files.
+    4. Making some Changes.
+
+soo all of this history are basicallly stored in another folder that git provide us is known as Git Repositry and it is named as: .git 
+and we can get this folder by initializing and empty github repositry by writting: git init
+
+D:\Git By Kunal Khuswaha>git init
+Initialized empty Git repository in D:/Git By Kunal Khuswaha/.git/
+-
+initialized an empty github repositry inside inside the Git By Kunal Khuswaha folder

@@ -1,0 +1,14 @@
+Command for Making a Directory: 
+-------------------------------
+mkdir Project : - this results in creating a folder with the name Project
+
+How to get inside the Directory:
+--------------------------------
+
+Simply By double clicking on the Project folder we can get into that particular directory 
+
+or:
+
+D:\Git By Kunal Khuswaha>cd Some Basic Linux Commands
+with this command i am trying to get inside the Folder of Some Basic Linux Commands
+
