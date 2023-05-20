@@ -1,0 +1,142 @@
+Viewing The Overall History: 
+----------------------------
+
+we can see the history about what we have done in our projects by using a command called 
+git log.
+
+D:\Git By Kunal Khuswaha>git log
+commit dff22c47c5d8d15c31d64528ad855a7c777de56e (HEAD -> main, origin/main)
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 21:00:36 2023 +0530
+
+    link added
+
+commit ee9c822770fd612dee1a2d50b6f56a28c1c9070b
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:37:16 2023 +0530
+
+    added some files
+
+commit 6fe69cc2e7d9d1b95811786b9fbebc561d269507
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:31:01 2023 +0530
+
+    added all the files
+
+commit 690ee4054104bc7177f98966c7dde88830d23684
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:53:58 2023 +0530
+
+    link added for each section
+
+commit bc361703ac67ea57f629de47de5ce4397353d463
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:50:39 2023 +0530
+
+    updated
+
+commit 79763b1b8587a0c56cbbc467b4017309b9c7a4b2
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:49:30 2023 +0530
+
+    readme file updated
+
+commit 88034948bfc5bf19d1f4c19ae7600c43b6ced407
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 08:22:32 2023 +0530
+
+    notes added
+(END)
+commit 6fe69cc2e7d9d1b95811786b9fbebc561d269507
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:31:01 2023 +0530
+
+    added all the files
+
+commit 690ee4054104bc7177f98966c7dde88830d23684
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:53:58 2023 +0530
+
+    link added for each section
+
+commit bc361703ac67ea57f629de47de5ce4397353d463
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:50:39 2023 +0530
+
+    updated
+
+commit 79763b1b8587a0c56cbbc467b4017309b9c7a4b2
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:49:30 2023 +0530
+
+    readme file updated
+
+commit 88034948bfc5bf19d1f4c19ae7600c43b6ced407
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 08:22:32 2023 +0530
+
+    notes added
+(END)
+commit 6fe69cc2e7d9d1b95811786b9fbebc561d269507
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:31:01 2023 +0530
+
+    added all the files
+
+commit 690ee4054104bc7177f98966c7dde88830d23684
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:53:58 2023 +0530
+
+    link added for each section
+
+commit bc361703ac67ea57f629de47de5ce4397353d463
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:50:39 2023 +0530
+
+    updated
+
+commit 79763b1b8587a0c56cbbc467b4017309b9c7a4b2
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:49:30 2023 +0530←[m
+
+    readme file updated
+
+commit 88034948bfc5bf19d1f4c19ae7600c43b6ced407
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 08:22:32 2023 +0530
+
+    notes added
+(END)
+commit 6fe69cc2e7d9d1b95811786b9fbebc561d269507
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:31:01 2023 +0530
+
+    added all the files
+
+commit 690ee4054104bc7177f98966c7dde88830d23684
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:53:58 2023 +0530
+
+    link added for each section
+
+commit bc361703ac67ea57f629de47de5ce4397353d463
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:50:39 2023 +0530
+
+    updated
+
+commit 79763b1b8587a0c56cbbc467b4017309b9c7a4b2
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:49:30 2023 +0530
+
+    readme file updated
+
+commit 88034948bfc5bf19d1f4c19ae7600c43b6ced407
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 08:22:32 2023 +0530
+
+    notes added
+
+
+----
+This is what the total number of commits i have done till now.
