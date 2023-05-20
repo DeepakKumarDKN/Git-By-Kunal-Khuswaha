@@ -7,3 +7,5 @@
 * [📝 notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Some%20Basic%20Linux%20Commands/Notes.txt)
 
 ## 📁 Make The First Change 💜
+* [📝 notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Make%20The%20First%20Change/notes.txt)
+
