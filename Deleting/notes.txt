@@ -49,4 +49,9 @@ Note:
 -----
 Remember one thing after performing each and every operation we hae to repeat some steps like : 
 
-    1. 
+    1. git add . 
+    2. git commit -m "message"
+    3. git push
+
+These are the steps we always have to follow if we add something then also we have to follow these steps 
+if we remove something then also we havr to follow these steps
