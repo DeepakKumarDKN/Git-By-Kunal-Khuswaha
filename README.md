@@ -23,3 +23,10 @@
 
 ## 📁 Deleting ⬅️
 * [➡️ notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Deleting/notes.txt)
+
+
+## 📁 Removing a Commit ⬅️
+* [➡️ notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Removing%20a%20commit/notes.txt)
+
+## 📁 Stashing A Commit ⬅️
+* [➡️ notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Stashing%20Process/notes.txt)

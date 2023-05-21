@@ -110,16 +110,16 @@ the last commit i have done is for notes added. so if i want to remove the commi
 
 [ 88034948bfc5bf19d1f4c19ae7600c43b6ced407 ] =>  hash id
 
-i have to copy that hash id , so what ever commit i will copy all the commit abive that commit will be removed. 
+i have to copy that hash id , so what ever commit i will copy all the commit above that commit will be removed. 
 
 and we have to write a command for that ... 
 
-git reset commit hashid 
+git reset commithashid 
 git restet 88034948bfc5bf19d1f4c19ae7600c43b6ced407
 
 then if i will do git log then we will get to know that all the commits are removed.
 
 
-so now where are those cimmits which we hae removed . 
+so now where are those commits which we have removed . 
 so now they are in the unstaged area. 
 
