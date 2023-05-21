@@ -47,11 +47,12 @@ To https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha.git
 
 Note: 
 -----
-Remember one thing after performing each and every operation we hae to repeat some steps like : 
+Remember one thing after performing each and every operation we have to repeat some steps like : 
 
-    1. git add . 
-    2. git commit -m "message"
-    3. git push
+    1. git add .                      |       "adding all the files"
+    2. git commit -m "message"        |       "commit is must otherwise we wont be able to push"
+    3. git push                       |       "then this is the last due to which everything will 
+                                      |      be pushed into repositry whatever work we had performed"
 
 These are the steps we always have to follow if we add something then also we have to follow these steps 
 if we remove something then also we havr to follow these steps
