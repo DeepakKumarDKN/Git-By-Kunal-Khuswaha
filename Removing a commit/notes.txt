@@ -1,0 +1,125 @@
+Removing a Commit: 
+------------------
+
+suppose we have done 10 commits and i want to remove the commit from the middle. 
+
+so we just cannot remove the particular one commit from the middle, 
+
+each commmit has a hash id and each commit is built on top of other. 
+
+
+this is how the commits look like,
+
+
+Git By Kunal Khuswaha>git log
+commit 6932d6930dc34ad55ce367b16a8223cfcc594844 (HEAD -> main, origin/main)
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sun May 21 07:46:41 2023 +0530
+
+    uptading readme file
+
+commit 0de380a0bdaf079d1dd79ca8065eee175777adc4
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sun May 21 07:39:29 2023 +0530
+
+    added some more notes to Deleting folder
+
+commit 3c53fd74157d508330ed1b26bb524f8454961665
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sun May 21 07:32:52 2023 +0530
+
+    added some notes how to perform delete operation
+
+commit 53bef19b9d5db18d94e36aedcfd10eb8a44ad204
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sun May 21 07:30:14 2023 +0530
+
+    deleted the folder again
+
+commit 65734e5d47bb2f084bed5ad1d05412f3642c91e2
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sun May 21 07:28:34 2023 +0530
+
+    added delete folder to perform delete operation
+
+commit b53a9885e52458b0167a202895cd417cd1879df8
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 21:33:08 2023 +0530
+
+    Folder deleted
+
+commit cebee795e85f7b8164adbbabd4474a4a60b98268
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 21:22:34 2023 +0530
+
+    updated
+
+commit 062fec379758c34190b3be0d540099358a1226ff
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 21:18:48 2023 +0530
+
+    added some more files
+
+commit dff22c47c5d8d15c31d64528ad855a7c777de56e
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 21:00:36 2023 +0530
+
+    link added
+
+commit ee9c822770fd612dee1a2d50b6f56a28c1c9070b
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:37:16 2023 +0530
+
+    added some files
+
+commit 6fe69cc2e7d9d1b95811786b9fbebc561d269507
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 17:31:01 2023 +0530
+
+    added all the files
+
+commit 690ee4054104bc7177f98966c7dde88830d23684
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:53:58 2023 +0530
+
+    link added for each section
+
+commit bc361703ac67ea57f629de47de5ce4397353d463
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:50:39 2023 +0530
+
+    updated
+
+commit 79763b1b8587a0c56cbbc467b4017309b9c7a4b2
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 15:49:30 2023 +0530
+
+    readme file updated
+
+commit 88034948bfc5bf19d1f4c19ae7600c43b6ced407
+Author: Deepak <deepaknnayak34@gmail.com>
+Date:   Sat May 20 08:22:32 2023 +0530
+
+    notes added
+
+
+
+
+so if i want to remove the commits above notes added. 
+the last commit i have done is for notes added. so if i want to remove the commits i have done before notes added then i have to copy the hash id and what is the has id ... 
+
+[ 88034948bfc5bf19d1f4c19ae7600c43b6ced407 ] =>  hash id
+
+i have to copy that hash id , so what ever commit i will copy all the commit abive that commit will be removed. 
+
+and we have to write a command for that ... 
+
+git reset commit hashid 
+git restet 88034948bfc5bf19d1f4c19ae7600c43b6ced407
+
+then if i will do git log then we will get to know that all the commits are removed.
+
+
+so now where are those cimmits which we hae removed . 
+so now they are in the unstaged area. 
+

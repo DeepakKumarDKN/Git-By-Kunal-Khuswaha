@@ -1,0 +1,23 @@
+Stashing Process 
+-----------------
+
+So previously we learn how to remove the commit and send them into unstage area by using the commit hash id, 
+So after removing the commits i dont want to delete all of them i just want it to be on the stash area 
+and i can call them whenever i want. 
+
+
+For Example: 
+-----------
+let's say for an example i have to prepare a team of 5 players and i have already choosen my all 5 players 
+but there are some players who are also good i want them to take into the team as well and there are  
+two players which i want to take into the team but later not now so i will tell those players to go back and wait for my call 
+whenever i will think that now you are required i will call you .
+
+another Example:
+---------------
+Suppose i am working on a project and i am working on a particular feature and i want to try out something new with a clean 
+code base all the i have made , all the modification are being made i want to remove those but also i dont want to save the process 
+as a separate commit 
+
+so i want to put all my work (meand all the changes i have made) without making a comiit and whenever i want that thung back 
+i can get that back. so there is a command for that called git stash 
