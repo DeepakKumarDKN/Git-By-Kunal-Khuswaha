@@ -1,0 +1,52 @@
+If i want to delete something from the project suppose deleteing a folder or deleting a file 
+then i have to use a command called : 
+
+git rm -r "Delete this Folder"
+
+Note: in this example i am trying to delete a folder which i have created in the name of 
+"Delete This Folder"
+
+The folder is already deleted because i have performed the operation by using the command
+
+"""
+Commands for performing the deleting operation
+-----------------------------------------------
+
+
+Khuswaha>git rm -r "Delete This Folder"       
+rm 'Delete This Folder/notes.txt'
+
+D:\Git By Kunal Khuswaha>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Delete This Folder/notes.txt
+
+
+D:\Git By Kunal Khuswaha>git add .
+
+D:\Git By Kunal Khuswaha>git commit -m "Folder deleted"
+[main b53a988] Folder deleted
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 Delete This Folder/notes.txt
+
+D:\Git By Kunal Khuswaha>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 226 bytes | 226.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha.git
+   cebee79..b53a988  main -> main
+
+"""
+
+Note: 
+-----
+Remember one thing after performing each and every operation we hae to repeat some steps like : 
+
+    1. 
