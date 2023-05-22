@@ -11,4 +11,5 @@ Column A | Column B |
 📁 Deleting 💛|[➡️📝 notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Deleting/notes.txt)|
 📁 Removing a Commit 💛|[➡️📝 notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Removing%20a%20commit/notes.txt)|
 📁 Stashing A Commit 💛| [➡️📝 notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Stashing%20Process/notes.txt)|
+📁 Git Pop and Git Stash Clear 💛| [➡️📝 notes](https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha/blob/main/Git%20Pop%20and%20Git%20Stash%20Clear/Untitled.png)|
 
