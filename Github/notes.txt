@@ -1,0 +1,47 @@
+git remote add origin https://github.com/DeepakKumarDKN/Git-By-Kunal-Khuswaha.git
+
+
+git : git is just a git command 
+remote : remote mean working with url .
+add: means adding a new url 
+origin : means what is the name of the url that we are going to add.
+
+git remote -v 
+--------------
+this will give all all the url attached to a specefic project.
+
+
+git push origin main
+--------------------
+push : push mean pushing all the changes we have made in our project. 
+
+origin: origin mean to which url we are going to push.
+main : to which branch we are going to push.
+
+branches
+--------
+why do we want branches.
+-------------------------
+so whenever we are woking on a project so we have to do a lot of things like adding some feature and resolving a bug, so always maintain a separate branch for that
+
+we should never commit on the main brach or the  master branch. previously it was master now it was main.
+
+because if we are working on a open source project and you have done some changes but the code which you hae worked upon re not yet being finalized there may be some errors thats why we should always create s separate branch for the code which are not finalized so that the main branch will not get affected.
+ 
+to create a branch we have to use a command. 
+
+git branch feature
+
+we can see a new branch will be created with the name feature.
+
+
+What is HEAD.
+--------------
+Head is just a pointer that says all the new commits will be made is going to be added on the HEAD.
+ 
+so when i will create a new branch at that time HEAD will point out towards the new branch we have made and hance all the commits we are making will be added to the new branch (feature)
+
+
+
+
+
