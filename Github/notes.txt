@@ -42,6 +42,70 @@ Head is just a pointer that says all the new commits will be made is going to be
 so when i will create a new branch at that time HEAD will point out towards the new branch we have made and hance all the commits we are making will be added to the new branch (feature)
 
 
+move into main branch and do a commit:
+---------------------------------------
+git checkout main. 
+git commit.
+
+how to mearge feature branch code with main:
+--------------------------------------------
+because the person working on a main branch have some diffrent code and the person working on feature branch have a diffrent code. and the feature branch has written some code which is finalized and it is yet to be added to the main branch.
+
+git merge feature
+now the new branch we have created is the part of the main branch.
 
 
+working with existing projects on github:
+------------------------------------------
+suppose there is project on the github and that peoject is not in your github account. 
 
+can we do any kind of changes in that project .. right now ita a big now we cannot make any kind of changes as we dont have any access to that account.
+
+but wecan fork that particular project mean creating a copy of that project in my own account.
+
+so from where i have forked this project thats is known as upstream url by convenction.
+
+git remote add upstream 'url'
+
+
+origin url is my personal url and upstream url is from where i have forked it.
+
+what is the need of going for checkout
+---------------------------------------
+if we are creating another branch then we have to checkout that branch so that the head will point out to that branch.
+
+and whatever commits we will do will go and added to that branch.
+after doing checkout all the commits we will do that will get added to the new branch we have created.
+
+Pull Request 
+------------
+Note: Never commit on main branch create a new branch for whatever changes 
+you will made .
+
+create a new branch
+-------------------
+git branch Deepak
+git checkout Deepak 
+
+we have to do use checkout with branch name now the head will point towards 
+Deepak all the commits we will make add to deepak untill and and unless we change our branch
+to main. 
+
+git add . 
+git commit -m "commit will add to deepak branch"
+
+git log 
+
+git log will show our commits history. 
+
+so now we will see two commits one is for deepak branch and one is for main branch.
+
+so now i will go for git push origin deepak
+
+so now whatever changes i have made in my respective branch (Deepak branch) i will
+push those changes and merge into main project main branch.
+
+the mergin will happen via pull request.
+
+Note: 
+One branch One pull request.
